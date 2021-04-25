@@ -4,7 +4,7 @@ It's basically a modern and lightning-fast personal portfolio site. For this pro
 
 _This one is one of my personal projects._
 
-[See it Live](#)
+[See it Live](https://eager-nobel-acdfd9.netlify.app/)
 
 ### Credits
 
