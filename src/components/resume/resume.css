@@ -1,0 +1,104 @@
+.resume-head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 20%);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.short-bio div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 20px;
+}
+
+.short-bio .gatsby-image-wrapper {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  border-radius: 50px;
+  border: 3px solid #ddd;
+}
+
+.short-bio h2 {
+  display: inline-block;
+}
+
+.important-links {
+  justify-self: end;
+  display: grid;
+  gap: 7px;
+}
+
+.important-links span {
+  display: block;
+  font-weight: bold;
+}
+
+/* Cards CSS */
+.resume-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.resume-card {
+  padding: 20px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+}
+
+.resume-card > div {
+  display: grid;
+  gap: 25px;
+}
+
+.resume-card > div small {
+  display: block;
+  font-weight: 500;
+}
+
+.resume-card h4 {
+  margin-bottom: 15px;
+}
+
+.project-list div,
+.edu-list div,
+.experience-list div {
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #ddd;
+}
+
+.project-list div:last-child,
+.edu-list div:last-child,
+.experience-list div:last-child {
+  border-bottom: 0px dashed #ddd;
+}
+
+.project-list span {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.project-list a {
+  color: #000;
+  transition: 0.3s;
+}
+
+.project-list a:hover {
+  padding-left: 5px;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.skills-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

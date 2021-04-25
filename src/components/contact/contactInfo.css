@@ -1,0 +1,40 @@
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin: 50px 0;
+}
+
+.contact-info div {
+  text-align: center;
+  padding: 25px 15px;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 2px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info div:hover {
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info div:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info div svg {
+  color: #0f9d58;
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.contact-info div h4 {
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.contact-info div p {
+  margin: 0;
+}

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -5,6 +7,7 @@ html {
   box-sizing: border-box;
   overflow-y: scroll;
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -594,4 +597,46 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+/* Main Menu */
+.main-menu ul li a {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.main-menu ul li a:hover {
+  transform: scale(0.9);
+}
+
+/* Button CSS */
+.btn-default {
+  display: inline-block;
+  padding: 15px 35px;
+  color: #000;
+  border: 2px solid #000;
+  margin: 15px 0;
+  transition: 0.3s;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-default:hover {
+  transform: scale(0.9);
+}
+
+/* Page Heading CSS */
+.contact-section-head,
+.project-section-head,
+.blog-section-head {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
 }

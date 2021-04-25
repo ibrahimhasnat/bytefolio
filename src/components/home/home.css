@@ -1,0 +1,151 @@
+header {
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+  display: block;
+  padding: 5px;
+}
+
+nav ul li a svg {
+  font-size: 40px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover svg {
+  transform: scale(1.5);
+}
+
+/* Browser View */
+.browser {
+  width: 960px;
+  margin: 70px auto;
+  padding: 25px;
+  position: relative;
+  padding-top: 110px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #dee1e7;
+}
+
+.browser-head {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-color: #dee1e7;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 25px;
+}
+
+.browser-head .dot {
+  width: 15px;
+  height: 15px;
+  background-color: #fc5753;
+  border-radius: 100%;
+  display: inline-block;
+  border: 1px solid #de3734;
+}
+
+.browser-head .dot-2 {
+  background-color: #fdbc40;
+  border: 1px solid #dc9c2f;
+}
+
+.browser-head .dot-3 {
+  background-color: #33c748;
+  border: 1px solid #09a623;
+}
+
+.address-bar {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 100%;
+  height: 35px;
+  border-bottom: 1px solid #dee1e7;
+  display: flex;
+  align-items: center;
+}
+
+.address-bar input {
+  width: 75%;
+  margin: auto;
+  padding: 1px 15px;
+  border-radius: 50px;
+  border: 1px solid #dee1e7;
+}
+
+.profile-info {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 15px;
+  padding: 25px 0;
+}
+
+.browser .profile-info .gatsby-image-wrapper {
+  border: 5px solid #dee1e7;
+  border-radius: 5px;
+  transform: rotate(-15deg) scale(0.65);
+  transition: 0.3s;
+}
+
+.browser:hover.browser .profile-info .gatsby-image-wrapper {
+  transform: rotate(0deg) scale(0.75);
+}
+
+.profile-img:hover {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.profile-desc {
+  padding: 15px;
+  align-self: center;
+}
+
+.profile-desc h2 span {
+  display: block;
+  font-size: 18px;
+  margin-top: 7px;
+}
+
+.social-links {
+  padding: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15px, 1fr));
+  align-items: center;
+  line-height: 1;
+  margin: 15px 0;
+  gap: 25px;
+  grid-column: 1/-1;
+}
+
+.social-links a {
+  color: #000;
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  transform: scale(2);
+}

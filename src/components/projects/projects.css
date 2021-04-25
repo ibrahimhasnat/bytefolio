@@ -1,0 +1,60 @@
+.project-card {
+  margin-bottom: 25px;
+  padding: 25px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+  box-shadow: 0 2px 20px rgb(0 0 0 / 20%);
+}
+
+.project-card .stack {
+  display: grid;
+  grid-column: 1/-1;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px dashed #ddd;
+}
+
+.project-card .stack h4 {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #ddd;
+}
+
+.project-card .stack div {
+  padding: 7px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15px, 1fr));
+  align-items: center;
+  gap: 25px;
+}
+
+.project-card .stack div span {
+  color: #4285f4;
+}
+
+.project-card .stack div span:nth-child(even) {
+  color: #0f9d58;
+}
+
+.project-links {
+  align-self: center;
+  justify-self: center;
+}
+
+.project-links a {
+  display: block;
+}
+
+.project-links a svg {
+  padding-right: 7px;
+  display: inline-block;
+  font-size: 20px;
+}
